@@ -933,10 +933,18 @@ footer {
     padding: 10px 0;
 }
 
+.banner__text--docs {
+    font-size: 22px !important;
+}
+
 .banner__link {
 	cursor: pointer;
 	color: white;
     text-decoration: none;
+}
+
+.banner__link {
+	color: white !important;
 }
 
 .banner__link:hover {
