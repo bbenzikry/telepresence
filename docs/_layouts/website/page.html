@@ -7,6 +7,11 @@
     <img class="logo" src="/images/telepresence-logo.png" alt="logo">
 </a>
 
+{{ super() }}
+{% endblock %}
+
+{% block page %}
+
 <section class="banner">
     <div class="banner__text">
         Telepresence 2 is open source and available to preview now! 
@@ -15,10 +20,6 @@
     </div>
 </section>
 
-{{ super() }}
-{% endblock %}
-
-{% block page %}
 <a id="datawire-breadcrumb" href="https://datawire.io/learn/open-source-docs">
     ← Back to Datawire Open Source Documentation
 </a>
