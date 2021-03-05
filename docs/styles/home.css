@@ -942,3 +942,7 @@ footer {
 .banner__link:hover {
     text-decoration: underline;
 }
+
+.banner__link {
+    vertical-align: middle;
+}
