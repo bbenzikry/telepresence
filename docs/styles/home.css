@@ -924,12 +924,21 @@ footer {
 
 .banner {
     width: 100%;
-    height: 30px;
     background-color: #f9634e;
 }
 
-.banner-text {
+.banner__text {
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
+}
+
+.banner__link {
+	cursor: pointer;
+	color: white;
+    text-decoration: none;
+}
+
+.banner__link:hover {
+    text-decoration: underline;
 }
