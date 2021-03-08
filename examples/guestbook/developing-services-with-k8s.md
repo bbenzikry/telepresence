@@ -47,7 +47,7 @@ We need to install Telepresence, which will proxy your locally running service t
 On OS X:
 
 ```
-brew cask install osxfuse
+brew install --cask osxfuse
 brew install datawire/blackbird/telepresence
 ```
 
